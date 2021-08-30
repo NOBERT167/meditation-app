@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.audio__list {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.options__left {
+  display: flex;
+  align-items: center;
+}
+.options__left .icon {
+  margin-right: 1rem;
+}
+.meditation__title {
+  font-size: 20px;
+  cursor: pointer;
+}
+.meditation__time {
+  opacity: 0.7;
+}
+.icon__wrapper {
+  background: transparent;
+  border: none;
+}
